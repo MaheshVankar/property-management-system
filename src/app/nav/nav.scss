@@ -1,0 +1,18 @@
+@import '../../app/variable.scss';
+.navBg{
+     background-color: $default-blue-color !important;
+    .nav{
+       a{
+        color: $nav-link-color !important;
+        font-weight: $bold-font-weight ;
+       
+       }
+        .active{
+          background-color: darken($default-blue-color, 10%) !important;
+        }
+       :hover{
+        background-color: darken($default-blue-color, 10%) !important;
+       }
+
+    }
+}
