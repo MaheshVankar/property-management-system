@@ -2,7 +2,11 @@ $enable-cssgrid: true;
 @import "bootstrap/scss/bootstrap";
 @import "bootstrap-icons/font/bootstrap-icons";
 /* You can add global styles to this file, and also import other style files */
+@import '../src/app/variable.scss';
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+}
+.dropdown-item.active, .dropdown-item:active{
+  background-color: $default-blue-color;
 }

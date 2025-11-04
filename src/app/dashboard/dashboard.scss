@@ -6,3 +6,30 @@
 .summary-status{
     border: 1px solid $common-border-color;
 }
+.btn-primary{
+    color: $light-border-color9 !important;
+    &.calender {
+    background-color: transparent !important;
+    border-color: $light-border-color9 !important;
+    }
+    &.dropdown-toggle::after{
+        color: $light-border-color9 !important;
+    }
+    &.dropdown-toggle::before{
+        font-family: "bootstrap-icons";
+        content: "\F214";
+        vertical-align: middle;
+        padding: 0 5px 0 0;
+    }
+    .dropdown-menu{
+        border-color: $light-border-color9 !important;
+    }
+    
+}
+.table-border{
+        border: 1px solid $common-border-color !important;
+        padding: 8px;
+    }
+.table > :not(caption) > * > *{
+    border-color: #cccccc !important;
+}
